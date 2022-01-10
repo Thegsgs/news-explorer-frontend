@@ -1,0 +1,22 @@
+.saved__subtitle {
+  margin: 40px 0 30px;
+  font-family: "Robot-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1a1b22;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 886px) {
+  .saved__subtitle {
+    margin: 24px 0 28px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .saved__subtitle {
+    margin: 8px 0 16px;
+    font-size: 12px;
+  }
+}

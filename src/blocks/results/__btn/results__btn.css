@@ -1,0 +1,28 @@
+.results__btn {
+  margin: 80px 0;
+  align-self: center;
+  background-color: white;
+  color: #1a1b22;
+  width: 288px;
+  height: 64px;
+  border: none;
+  border-radius: 80px;
+  font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.results__btn:hover {
+  opacity: 0.9;
+}
+
+@media screen and (max-width: 886px) {
+  .results__btn {
+    margin: 32px 0 40px;
+    width: 240px;
+    height: 56px;
+  }
+}

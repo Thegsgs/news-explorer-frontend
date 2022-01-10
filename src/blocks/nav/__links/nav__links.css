@@ -1,0 +1,7 @@
+.nav__links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-bottom: 20px;
+}

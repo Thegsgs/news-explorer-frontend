@@ -1,0 +1,13 @@
+.saved__keywords {
+  margin: 0 0 56px;
+  font-family: "Robot-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 886px) {
+  .saved__keywords {
+    margin: 0 0 32px;
+  }
+}

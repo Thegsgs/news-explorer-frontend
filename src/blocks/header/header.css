@@ -1,0 +1,22 @@
+.header {
+  margin: 0 0 78px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgba(196, 196, 196, 0.1);
+  width: 100%;
+  color: white;
+  box-shadow: inset 0px -1px 0px rgba(255, 255, 255, 0.2);
+}
+
+@media screen and (max-width: 886px) {
+  .header {
+    margin: 0 0 35px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    margin: 0 0 30px;
+  }
+}

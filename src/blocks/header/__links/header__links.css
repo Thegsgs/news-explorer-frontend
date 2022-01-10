@@ -1,0 +1,15 @@
+.header__links {
+  padding-top: 4px;
+  box-sizing: border-box;
+  margin: 0 40px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 600px) {
+  .header__links {
+    visibility: hidden;
+    position: absolute;
+  }
+}

@@ -1,0 +1,14 @@
+.news-card__img-container {
+  margin-bottom: 8px;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  padding-top: 68%;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__img-container {
+    margin-bottom: 6px;
+  }
+}

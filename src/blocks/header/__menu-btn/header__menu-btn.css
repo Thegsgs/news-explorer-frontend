@@ -1,0 +1,19 @@
+.header__menu-btn {
+  margin-right: 16px;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/menu.png);
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  visibility: hidden;
+  position: absolute;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .header__menu-btn {
+    visibility: visible;
+    position: static;
+  }
+}

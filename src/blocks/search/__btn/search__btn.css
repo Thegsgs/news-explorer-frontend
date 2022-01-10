@@ -1,0 +1,39 @@
+.search__btn {
+  width: 168px;
+  height: 64px;
+  background-color: #2f71e5;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  color: white;
+  font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 100px;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.search__btn:active {
+  background-color: #2a65cc;
+}
+
+@media screen and (max-width: 886px) {
+  .search__btn {
+    width: 155px;
+    height: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search__btn {
+    margin-top: 16px;
+    position: static;
+    width: 288px;
+    height: 56px;
+  }
+}

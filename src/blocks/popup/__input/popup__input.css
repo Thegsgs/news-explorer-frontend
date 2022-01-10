@@ -1,0 +1,24 @@
+.popup__input {
+  margin: 0 0 30px 0;
+  width: 100%;
+  padding-bottom: 5px;
+  align-self: baseline;
+  border: none;
+  border-bottom: solid 2px rgba(225, 225, 225, 0.8);
+  font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.popup__input::placeholder {
+  font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+}
+
+.popup__input:focus {
+  outline: none;
+  border-bottom: solid 2px rgba(0, 0, 0, 0.4);
+}

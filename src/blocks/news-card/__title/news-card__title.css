@@ -1,0 +1,16 @@
+.news-card__title {
+  margin: 0 auto 12px;
+  max-width: 352px;
+  font-family: "RobotoSlab-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  height: 60px;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__title {
+    font-size: 22px;
+    line-height: 24px;
+  }
+}

@@ -1,0 +1,18 @@
+.about__text {
+  margin-bottom: calc(170 / 1440 * 100%);
+  width: calc(600 / 1440 * 100%);
+}
+
+@media screen and (max-width: 886px) {
+  .about__text {
+    margin-bottom: 25px;
+    width: calc(424 / 768 * 100%);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about__text {
+    margin-bottom: 25px;
+    width: calc(288 / 320 * 100%);
+  }
+}

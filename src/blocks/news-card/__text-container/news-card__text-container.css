@@ -1,0 +1,17 @@
+.news-card__text-container {
+  margin: 0 24px 10px 24px;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__text-container {
+    margin: 0 16px 6px 16px;
+    max-width: 192px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-card__text-container {
+    margin: 0 16px 6px 16px;
+    max-width: 256px;
+  }
+}
