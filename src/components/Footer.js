@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import fbIco from "../images/fb.png";
 import githubIco from "../images/github.png";
 
-export default function Footer(props) {
+export default function Footer() {
   return (
     <footer className='footer'>
       <h2 className='footer__copyright'>

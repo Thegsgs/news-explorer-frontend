@@ -1,4 +1,4 @@
-import { initialCards } from "../initialCards";
+import initialCards from "../initialCards";
 import NewsCard from "./NewsCard";
 
 export default function NewsCardList(props) {

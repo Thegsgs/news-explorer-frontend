@@ -4,7 +4,7 @@ import path3 from "./images/image_05.png";
 import path4 from "./images/image_04.png";
 import path5 from "./images/image_02.png";
 
-export const initialCards = [
+const initialCards = [
   {
     img: path1,
     keyword: "Nature",
@@ -46,3 +46,5 @@ export const initialCards = [
     src: "treehugger",
   },
 ];
+
+export default initialCards;

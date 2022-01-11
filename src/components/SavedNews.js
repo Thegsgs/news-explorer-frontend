@@ -4,7 +4,7 @@ import NewsCardList from "./NewsCardList";
 import SavedCards from "./SavedCards";
 import SavedNewsHeader from "./SavedNewsHeader";
 
-export default function SavedNews(props) {
+export default function SavedNews() {
   return (
     <>
       <Header isDark={true} btnText='Elise' />

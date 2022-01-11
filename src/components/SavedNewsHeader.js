@@ -1,7 +1,7 @@
-import { initialCards } from "../initialCards";
+import initialCards from "../initialCards";
 
-export default function SavedNewsHeader(props) {
-  let keywords = [];
+export default function SavedNewsHeader() {
+  const keywords = [];
   function keywordCount() {
     initialCards.forEach((card) => {
       if (!keywords.includes(card.keyword)) keywords.push(card.keyword);
