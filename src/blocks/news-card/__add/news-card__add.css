@@ -5,8 +5,12 @@
   width: 40px;
   height: 40px;
   background-color: white;
-  background-image: url(../../../images/bookmark-hover.png);
-  opacity: 0.8;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)
+    ),
+    url(../../../images/bookmark-hover.png);
+  opacity: 0.95;
   background-position: center;
   background-repeat: no-repeat;
   border: none;
@@ -17,6 +21,11 @@
 
 .news-card__add:hover {
   opacity: 1;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0)
+    ),
+    url(../../../images/bookmark-hover.png);
 }
 
 @media screen and (max-width: 886px) {
