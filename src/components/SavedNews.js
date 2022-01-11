@@ -1,7 +1,6 @@
 import Footer from "./Footer";
 import Header from "./Header";
 import NewsCardList from "./NewsCardList";
-import NotFound from "./NotFound";
 import SavedCards from "./SavedCards";
 import SavedNewsHeader from "./SavedNewsHeader";
 

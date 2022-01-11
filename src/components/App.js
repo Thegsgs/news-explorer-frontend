@@ -4,7 +4,7 @@ import NavigationMenu from "./NavigationMenu";
 import Main from "./Main";
 import { Route, Routes, Navigate } from "react-router-dom";
 import SavedNews from "./SavedNews";
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 export default function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
