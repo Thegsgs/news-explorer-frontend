@@ -19,6 +19,7 @@ export default function Signup(props) {
           maxLength='40'
           required
         />
+        <span className='popup__error popup__error_type_email-input-signup' />
         <h3 className='popup__subtitle'>Password</h3>
         <input
           className='popup__input'
@@ -30,10 +31,11 @@ export default function Signup(props) {
           maxLength='40'
           required
         />
+        <span className='popup__error popup__error_type_password-input-signup' />
         <h3 className='popup__subtitle'>Username</h3>
         <input
           className='popup__input'
-          id='username-input'
+          id='username-input-signup'
           type='text'
           name='username'
           placeholder='Enter your username'
@@ -41,6 +43,7 @@ export default function Signup(props) {
           maxLength='40'
           required
         />
+        <span className='popup__error popup__error_type_username-input-signup' />
         <button type='submit' className='popup__submit-btn'>
           Sign up
         </button>

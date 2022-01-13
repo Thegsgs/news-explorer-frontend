@@ -19,6 +19,7 @@ export default function Signin(props) {
           maxLength='40'
           required
         />
+        <span className='popup__error popup__error_type_email-input-signin' />
         <h3 className='popup__subtitle'>Password</h3>
         <input
           className='popup__input'
@@ -30,6 +31,7 @@ export default function Signin(props) {
           maxLength='40'
           required
         />
+        <span className='popup__error popup__error_type_password-input-signin' />
         <button type='submit' className='popup__submit-btn'>
           Sign in
         </button>
