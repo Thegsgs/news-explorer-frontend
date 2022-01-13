@@ -5,7 +5,8 @@
 @import url(../src/blocks/header/__title/header__title.css);
 @import url(./blocks/header/__links/header__links.css);
 @import url(./blocks/header/__link/header__link.css);
-@import url(./blocks/header/__link/_dark/header__link_dark.css);
+@import url(./blocks/header/__link/_color/header__link_color_black.css);
+@import url(./blocks/header/__link/_color/header__link_color_white.css);
 @import url(./blocks/header/__btn/header__btn.css);
 @import url(./blocks/header/__btn/_dark/header__btn_dark.css);
 @import url(./blocks/header/__menu-btn/header__menu-btn.css);
@@ -36,7 +37,7 @@
 @import url(./blocks/news-card/__date/news-card__date.css);
 @import url(./blocks/news-card/__img-container/news-card__img-container.css);
 @import url(./blocks/news-card/__img/news-card__img.css);
-@import url(./blocks/news-card/__signin/news-card__signin.css);
+@import url(./blocks/news-card/__popup/news-card__popup.css);
 @import url(./blocks/news-card/__source/news-card__source.css);
 @import url(./blocks/news-card/__text-container/news-card__text-container.css);
 @import url(./blocks/news-card/__text/news-card__text.css);
@@ -76,6 +77,10 @@
 @import url(./blocks/saved-cards/saved-cards.css);
 @import url(./blocks/news-card/__add/_selected/news-card__add_selected.css);
 @import url(./blocks/news-card/__delete/news-card__delete.css);
-@import url(./blocks/news-card/__signin/_visible/news-card__signin_visible.css);
+@import url(./blocks/news-card/__popup/_visible/news-card__popup_visible.css);
 @import url(./blocks/popup/__error/popup__error.css);
 @import url(./blocks/popup/__error/_visible/popup__error_visible.css);
+@import url(./blocks/header/__link/_selected/header__link_selected.css);
+@import url(./blocks/header/__menu-btn/_color/header__menu-btn_color_black.css);
+@import url(./blocks/news-card/__keyword/news-card__keyword.css);
+@import url(./blocks/news-card/__keyword/_visible/news-card__keyword_visible.css);

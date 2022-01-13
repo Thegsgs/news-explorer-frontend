@@ -21,7 +21,14 @@
 
 @media screen and (max-width: 886px) {
   .news-card__delete {
-    top: 10px;
+    top: 6px;
     right: 9px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-card__delete {
+    top: 16px;
+    right: 16px;
   }
 }

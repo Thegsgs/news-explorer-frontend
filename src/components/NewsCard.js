@@ -2,24 +2,47 @@ import React, { useState } from "react";
 
 export default function NewsCard(props) {
   const [isShow, setIsShow] = useState(false);
+  const [isSelected, setIsSelected] = useState(false);
+
+  function switchSelected() {
+    if (isSelected) {
+      setIsSelected(false);
+    } else setIsSelected(true);
+  }
 
   return (
     <article className='news-card'>
       <div className='news-card__img-container'>
-        <img className='news-card__img' src={props.card.img} alt='' />
+        <img
+          className='news-card__img'
+          src={props.card.img}
+          alt={props.card.title}
+        />
         <button
           onMouseEnter={() => setIsShow(true)}
           onMouseLeave={() => setIsShow(false)}
-          className={props.isOwned ? "news-card__delete" : "news-card__add"}
+          onClick={switchSelected}
+          className={`${
+            props.isOwned ? "news-card__delete" : "news-card__add"
+          } ${isSelected ? "news-card__add_selected" : ""}`}
         />
+        <div
+          className={
+            props.isKeywordVisible
+              ? "news-card__keyword news-card__keyword_visible"
+              : "news-card__keyword"
+          }
+        >
+          {props.card.keyword}
+        </div>
         <button
           className={
             isShow
-              ? "news-card__signin news-card__signin_visible"
-              : "news-card__signin"
+              ? "news-card__popup news-card__popup_visible"
+              : "news-card__popup"
           }
         >
-          Sign in to save articles
+          {props.popupText}
         </button>
       </div>
       <div className='news-card__text-container'>

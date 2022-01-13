@@ -1,5 +1,5 @@
 .nav__btn-close {
-  margin-right: 16px;
+  margin: 0 8px 0 0;
   width: 24px;
   height: 24px;
   background-image: url(../../../images/close.png);

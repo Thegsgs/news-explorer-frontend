@@ -4,13 +4,23 @@ import NewsCardList from "./NewsCardList";
 import SavedCards from "./SavedCards";
 import SavedNewsHeader from "./SavedNewsHeader";
 
-export default function SavedNews() {
+export default function SavedNews(props) {
   return (
     <>
-      <Header isDark={true} btnText='Elise' />
+      <Header
+        isDark={true}
+        btnText='Elise'
+        isSelected='news'
+        onMenuClick={props.onMenuClick}
+      />
       <SavedNewsHeader />
       <SavedCards>
-        <NewsCardList isOwned={true} postsToShow={5} />
+        <NewsCardList
+          isOwned={true}
+          postsToShow={5}
+          popupText='Remove from saved'
+          isKeywordVisible={true}
+        />
       </SavedCards>
 
       <Footer />

@@ -8,7 +8,7 @@ export default function Footer() {
       <h2 className='footer__copyright'>
         © 2020 Supersite, Powered by News API
       </h2>
-      <div className='footer__links'>
+      <nav className='footer__links'>
         <Link to={"/"} className='footer__link'>
           Home
         </Link>
@@ -20,8 +20,8 @@ export default function Footer() {
         >
           Practicum by Yandex
         </a>
-      </div>
-      <div className='footer__btns'>
+      </nav>
+      <nav className='footer__btns'>
         <a
           href='https://github.com/Thegsgs'
           target='_blank'
@@ -36,9 +36,9 @@ export default function Footer() {
           rel='noreferrer'
           className='footer__btn'
         >
-          <img src={fbIco} alt='github' />
+          <img src={fbIco} alt='facebook' />
         </a>
-      </div>
+      </nav>
     </footer>
   );
 }

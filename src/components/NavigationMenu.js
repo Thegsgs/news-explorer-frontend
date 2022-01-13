@@ -12,10 +12,10 @@ export default function NavigationMenu(props) {
           ></button>
         </div>
         <div className='nav__links'>
-          <Link to={"#"} className='nav__link'>
+          <Link to={"/"} className='nav__link'>
             Home
           </Link>
-          <Link to={"#"} className='nav__link'>
+          <Link to={"/saved-news"} className='nav__link'>
             Saved articles
           </Link>
         </div>

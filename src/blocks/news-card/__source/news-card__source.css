@@ -1,5 +1,5 @@
 .news-card__source {
-  margin-top: 40px;
+  margin: 18px 0 18px;
   font-family: "RobotoSlab-Regular", Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 20px;
@@ -10,9 +10,15 @@
 
 @media screen and (max-width: 886px) {
   .news-card__source {
-    margin-top: 10px;
+    margin: 12px 0 16px;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__source {
+    margin: 0 0 16px 0;
   }
 }

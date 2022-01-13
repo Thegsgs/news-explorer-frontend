@@ -9,6 +9,7 @@
 
 @media screen and (max-width: 886px) {
   .news-card__img-container {
-    margin-bottom: 6px;
+    padding-top: 66%;
+    margin-bottom: 12px;
   }
 }

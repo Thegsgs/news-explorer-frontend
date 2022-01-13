@@ -4,20 +4,24 @@ export default function Header(props) {
   return (
     <header className={props.isDark ? "header header_dark" : "header"}>
       <h1 className='header__title'>NewsExplorer</h1>
-      <div className='header__links'>
+      <nav className='header__links'>
         <Link
           to={"/"}
-          className={
-            props.isDark ? "header__link header__link_dark" : "header__link"
-          }
+          className={`${
+            props.isDark
+              ? "header__link header__link_color_black"
+              : "header__link header__link_color_white"
+          } ${props.isSelected === "home" ? "header__link_selected" : ""}`}
         >
           Home
         </Link>
         <Link
           to={"/saved-news"}
-          className={
-            props.isDark ? "header__link header__link_dark" : "header__link"
-          }
+          className={`${
+            props.isDark
+              ? "header__link header__link_color_black"
+              : "header__link header__link_color_white"
+          } ${props.isSelected === "news" ? "header__link_selected" : ""}`}
         >
           Saved articles
         </Link>
@@ -29,8 +33,15 @@ export default function Header(props) {
         >
           {props.btnText}
         </button>
-      </div>
-      <button onClick={props.onMenuClick} className='header__menu-btn'></button>
+      </nav>
+      <button
+        onClick={props.onMenuClick}
+        className={
+          props.isDark
+            ? "header__menu-btn header__menu-btn_color_black"
+            : "header__menu-btn"
+        }
+      ></button>
     </header>
   );
 }

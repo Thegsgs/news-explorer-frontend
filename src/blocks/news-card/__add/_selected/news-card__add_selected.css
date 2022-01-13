@@ -1,4 +1,4 @@
-.news-card__add_selected {
+.news-card__add_selected::before {
   opacity: 1;
   background-image: url(../../../../images/bookmark-marked.png);
 }

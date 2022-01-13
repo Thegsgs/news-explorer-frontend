@@ -11,4 +11,12 @@
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
+  min-height: 110px;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__text {
+    margin-bottom: 12px;
+    min-height: 88px;
+  }
 }

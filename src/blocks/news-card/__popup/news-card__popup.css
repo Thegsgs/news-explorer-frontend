@@ -1,4 +1,4 @@
-.news-card__signin {
+.news-card__popup {
   position: absolute;
   top: 24px;
   right: 69px;
@@ -10,7 +10,7 @@
   font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
   font-size: 12px;
   line-height: 14px;
-  font-weight: 500;
+  font-weight: 600;
   cursor: pointer;
   visibility: hidden;
   opacity: 0;
@@ -18,10 +18,17 @@
 }
 
 @media screen and (max-width: 886px) {
-  .news-card__signin {
+  .news-card__popup {
     width: 83px;
     height: 40px;
     top: 10px;
     right: 55px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .news-card__popup {
+    top: 16px;
+    right: 62px;
   }
 }

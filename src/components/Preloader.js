@@ -1,4 +1,4 @@
-export default function Preloader(props) {
+export default function Preloader() {
   return (
     <div className='preloader'>
       <div className='preloader__animation' />

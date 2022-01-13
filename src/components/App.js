@@ -6,18 +6,19 @@ import NavigationMenu from "./NavigationMenu";
 import Main from "./Main";
 
 import SavedNews from "./SavedNews";
+import SuccessPopup from "./SuccessPopup";
 
 export default function App() {
   const [isSignupOpen, setIsSignupOpen] = useState(false);
   const [isSigninOpen, setIsSigninOpen] = useState(false);
   const [isNavMenuOpen, setIsNavMenuOpen] = useState(false);
-  // eslint-disable-next-line no-unused-vars
-  const [isSavedArticlesHidden, setIsSavedArticlesHidden] = useState(true);
+  const [isSuccessPopupOpen, setIsSuccessPopupOpen] = useState(false);
 
   function closeAllPopups() {
     setIsSigninOpen(false);
     setIsSignupOpen(false);
     setIsNavMenuOpen(false);
+    setIsSuccessPopupOpen(false);
   }
 
   useEffect(() => {
@@ -54,11 +55,7 @@ export default function App() {
           path='/'
           element={
             <>
-              <Main
-                onSigninClick={openSignin}
-                onMenuClick={openNavMenu}
-                isHidden={isSavedArticlesHidden}
-              />
+              <Main onSigninClick={openSignin} onMenuClick={openNavMenu} />
               <Signin
                 isOpen={isSigninOpen}
                 onCloseClick={closeAllPopups}
@@ -74,10 +71,27 @@ export default function App() {
                 onCloseClick={closeAllPopups}
                 onSigninClick={openSignin}
               />
+              <SuccessPopup
+                onCloseClick={closeAllPopups}
+                isOpen={isSuccessPopupOpen}
+                onRedirect={openSignin}
+              />
             </>
           }
         />
-        <Route path='/saved-news' element={<SavedNews />} />
+        <Route
+          path='/saved-news'
+          element={
+            <>
+              <SavedNews onMenuClick={openNavMenu} />
+              <NavigationMenu
+                isOpen={isNavMenuOpen}
+                onCloseClick={closeAllPopups}
+                onSigninClick={openSignin}
+              />
+            </>
+          }
+        />
 
         <Route path='*' element={<Navigate to='/' />} />
       </Routes>

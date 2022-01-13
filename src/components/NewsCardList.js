@@ -9,6 +9,9 @@ export default function NewsCardList(props) {
           key={initialCards.indexOf(card)}
           card={card}
           isOwned={props.isOwned}
+          keyword={card.keyword}
+          popupText={props.popupText}
+          isKeywordVisible={props.isKeywordVisible}
         />
       ))}
     </div>

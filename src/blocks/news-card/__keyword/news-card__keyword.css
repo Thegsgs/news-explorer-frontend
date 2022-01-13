@@ -1,0 +1,33 @@
+.news-card__keyword {
+  position: absolute;
+  padding: 0 22px;
+  top: 24px;
+  left: 24px;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  visibility: hidden;
+  opacity: 0;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__keyword {
+    top: 8px;
+    left: 8px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .news-card__keyword {
+      top: 16px;
+      left: 16px;
+    }
+  }
+}

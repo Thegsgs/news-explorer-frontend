@@ -11,9 +11,10 @@
   }
 }
 
-@media screen and (max-width: 886px) {
+@media screen and (max-width: 600px) {
   .about__img {
     margin: 32px 24px 24px;
     width: calc(272 / 320 * 100%);
+    max-width: 272px;
   }
 }
