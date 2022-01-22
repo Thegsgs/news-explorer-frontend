@@ -11,6 +11,10 @@
   line-height: 24px;
   font-weight: 500;
   cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: none;
 }
 
 @media screen and (max-width: 886px) {

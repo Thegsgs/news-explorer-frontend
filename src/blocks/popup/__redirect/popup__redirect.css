@@ -1,11 +1,16 @@
 .popup__redirect {
-  margin: 0 0 32px;
+  margin: 0 auto 32px;
   text-align: center;
   font-family: "Inter-Regular", Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 17px;
   color: #2f71e5;
   cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.popup__redirect:hover {
+  color: #6395ec;
 }
 
 @media screen and (max-width: 600px) {

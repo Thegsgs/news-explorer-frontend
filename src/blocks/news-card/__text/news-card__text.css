@@ -5,13 +5,13 @@
   line-height: 22px;
   font-weight: 400;
   max-width: 352px;
+  min-height: 88px;
   text-overflow: ellipsis;
   white-space: normal;
   overflow: hidden;
   display: -webkit-box;
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
-  min-height: 110px;
 }
 
 @media screen and (max-width: 886px) {

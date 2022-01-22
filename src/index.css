@@ -5,9 +5,11 @@
 @import url(../src/blocks/header/__title/header__title.css);
 @import url(./blocks/header/__links/header__links.css);
 @import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__link/_dim/header__link_dim.css);
 @import url(./blocks/header/__link/_color/header__link_color_black.css);
 @import url(./blocks/header/__link/_color/header__link_color_white.css);
 @import url(./blocks/header/__btn/header__btn.css);
+@import url(./blocks/header/__btn/_logout/header__btn_logout.css);
 @import url(./blocks/header/__btn/_dark/header__btn_dark.css);
 @import url(./blocks/header/__menu-btn/header__menu-btn.css);
 @import url(./blocks/header/_dark/header_dark.css);
@@ -68,7 +70,7 @@
 @import url(./blocks/nav/__container/nav__container.css);
 @import url(./blocks/nav/nav__title/nav__title.css);
 @import url(./blocks/nav/__header/nav__header.css);
-@import url(./blocks/nav/__btn-signin/nav__btn-signin.css);
+@import url(./blocks/nav/__btn/nav__btn.css);
 @import url(./blocks/nav/__btn-close/nav__btn-close.css);
 @import url(./blocks/nav/__link/nav__link.css);
 @import url(./blocks/nav/__links/nav__links.css);
@@ -84,3 +86,13 @@
 @import url(./blocks/header/__menu-btn/_color/header__menu-btn_color_black.css);
 @import url(./blocks/news-card/__keyword/news-card__keyword.css);
 @import url(./blocks/news-card/__keyword/_visible/news-card__keyword_visible.css);
+@import url(./blocks/results/__btn/_hidden/results__btn_hidden.css);
+@import url(./blocks/preloader/_visible/preloader_visible.css);
+@import url(./blocks/not-found/_visible/not-found_visible.css);
+@import url(./blocks/results/_visible/results_visible.css);
+@import url(./blocks/popup/__input-container/popup__input-container.css);
+@import url(./blocks/popup/__submit-btn/_active/popup__submit-btn_active.css);
+@import url(./blocks/news-card/__link/news-card__link.css);
+@import url(./blocks/nav/__link/_hidden/nav__link_hidden.css);
+@import url(./blocks/nav/__btn/_logout/nav__btn_logout.css);
+@import url(./blocks/saved-cards/_hidden/saved-cards_hidden.css);

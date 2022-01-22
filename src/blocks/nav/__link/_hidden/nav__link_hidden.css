@@ -1,0 +1,4 @@
+.nav__link_hidden {
+  visibility: hidden;
+  position: absolute;
+}

@@ -8,4 +8,14 @@
   color: #ff0000;
   opacity: 0;
   transition: opacity 0.2s ease;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 350px;
+}
+
+@media screen and (max-width: 600px) {
+  .popup__error {
+    max-width: 288px;
+  }
 }
