@@ -1,0 +1,19 @@
+.search__container {
+  margin: 0 0 82px;
+  display: flex;
+  width: 608px;
+  position: relative;
+}
+
+@media screen and (max-width: 886px) {
+  .search__container {
+    width: 446px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search__container {
+    width: 288px;
+    flex-direction: column;
+  }
+}

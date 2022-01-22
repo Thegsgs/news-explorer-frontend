@@ -1,0 +1,14 @@
+.news-card__date {
+  margin: 12px 0;
+  color: #b6bcbf;
+  font-family: "SourceSansPro-Regular", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 886px) {
+  .news-card__date {
+    margin: 8px 0 10px;
+  }
+}

@@ -1,0 +1,8 @@
+.nav__header {
+  margin-bottom: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1px rgba(196, 196, 196, 0.1);
+  width: 100%;
+}

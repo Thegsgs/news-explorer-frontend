@@ -1,0 +1,15 @@
+.nav__btn-signin {
+  margin-bottom: 30px;
+  margin-left: 16px;
+  width: 288px;
+  height: 56px;
+  border-radius: 100px;
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.nav__btn-close {
+  margin: 0 8px 0 0;
+  width: 24px;
+  height: 24px;
+  background-image: url(../../../images/close.png);
+  background-size: cover;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

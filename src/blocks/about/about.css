@@ -1,0 +1,12 @@
+.about {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  color: #1a1b22;
+}
+
+@media screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+}

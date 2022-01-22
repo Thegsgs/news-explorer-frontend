@@ -1,0 +1,29 @@
+import Footer from "./Footer";
+import Header from "./Header";
+import NewsCardList from "./NewsCardList";
+import SavedCards from "./SavedCards";
+import SavedNewsHeader from "./SavedNewsHeader";
+
+export default function SavedNews(props) {
+  return (
+    <>
+      <Header
+        isDark={true}
+        btnText='Elise'
+        isSelected='news'
+        onMenuClick={props.onMenuClick}
+      />
+      <SavedNewsHeader />
+      <SavedCards>
+        <NewsCardList
+          isOwned={true}
+          postsToShow={5}
+          popupText='Remove from saved'
+          isKeywordVisible={true}
+        />
+      </SavedCards>
+
+      <Footer />
+    </>
+  );
+}

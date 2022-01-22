@@ -1,0 +1,16 @@
+.about__subtitle {
+  margin: 0 0 24px;
+  font-family: "Roboto-Regular", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.about__subtitle:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .about__subtitle {
+  }
+}
