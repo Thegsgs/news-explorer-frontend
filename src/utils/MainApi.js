@@ -100,7 +100,7 @@ class MainApi {
 }
 
 export default new MainApi({
-  baseURL: "https://simonnews.students.nomoreparties.sbs",
+  baseURL: "https://api.simonnews.students.nomoreparties.sbs",
   headers: {
     authorization: "",
     "Content-Type": "application/json",
