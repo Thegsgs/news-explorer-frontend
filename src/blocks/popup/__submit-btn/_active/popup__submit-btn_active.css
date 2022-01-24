@@ -1,0 +1,10 @@
+.popup__submit-btn_active {
+  cursor: pointer;
+  background-color: #2f71e5;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+  color: #fff;
+}
+
+.popup__submit-btn_active:hover {
+  background-color: #347eff;
+}

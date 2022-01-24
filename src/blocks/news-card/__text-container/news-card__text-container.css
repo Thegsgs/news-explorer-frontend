@@ -1,7 +1,8 @@
 .news-card__text-container {
-  margin: 0 24px 10px 24px;
+  margin: 0 24px 0 24px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 886px) {

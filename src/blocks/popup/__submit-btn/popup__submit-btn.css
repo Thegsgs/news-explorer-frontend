@@ -10,6 +10,7 @@
   line-height: 24px;
   font-weight: 500;
   border: none;
+  transition: all 0.2s ease;
 }
 
 @media screen and (max-width: 600px) {

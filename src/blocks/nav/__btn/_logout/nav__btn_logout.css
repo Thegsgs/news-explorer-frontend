@@ -1,0 +1,9 @@
+.nav__btn_logout {
+  width: fit-content;
+  max-width: 140px;
+  height: 40px;
+  background-image: url(../../../../images/logout-white.png);
+  background-repeat: no-repeat;
+  background-position: 89% 50%;
+  padding: 0 40px 0 10px;
+}
