@@ -55,14 +55,12 @@ export default function App() {
       MainApi.checkToken(jwt)
         .then(() => {
           setIsLoggedIn(true);
-          /* setDataReady(true); */
         })
         .catch((err) => {
           console.log(`Error...: ${err}`);
         });
     } else {
       setIsLoggedIn(false);
-      /* setDataReady(true); */
     }
   }, []);
 
